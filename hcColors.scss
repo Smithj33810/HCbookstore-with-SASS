@@ -1,0 +1,37 @@
+$hcGreen: #009e49;
+$hcBlue: #0084c9;
+$hcOrange: #fca311;
+
+
+.headerBanner {
+    background-color: $hcGreen;
+    color: $hcGreen;
+
+    .logoHeader {
+        background-image: url("https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F9c1e8b92-7e40-4dc0-b713-c75dd01b3fb1%2FHawkLogo_vector.png?table=block&id=adf4d077-e4a7-4984-86f9-616565f1fe91&width=4800&cache=v2");
+    }
+}
+
+.gridColors {
+    background-color: $hcGreen;
+    grid-gap: 2px;
+    color: $hcBlue;
+  
+
+    font: {
+        family: Arial;
+        size: 30px;
+        
+    }
+}
+
+.footerBanner {
+    background-color: $hcOrange;
+
+    .logoFooter{
+        background-image: url("https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F98df464f-303f-4e41-a54e-39cf4bfe2234%2FHC_logo2.jpg?table=block&id=aa39f226-e3f6-4b20-97d3-cd48609a5506&width=670&cache=v2");
+        position: center;
+        size: contain;
+        repeat: no-repeat;
+    }
+}
